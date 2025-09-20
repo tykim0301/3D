@@ -1,0 +1,5 @@
+#requirments.txt
+
+streamlit
+requests
+numpy
