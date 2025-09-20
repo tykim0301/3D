@@ -151,7 +151,8 @@ with col2:
         
         # Clear the key value to prevent infinite loop
         st.session_state.maze_controller = "" 
-        st.rerun()
+        # The st.rerun() call below was removed to prevent an infinite loop.
+        # The script reruns automatically when the st_keyup value changes.
 
     st.divider()
     if st.button("새로운 미로 생성"):
